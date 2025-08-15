@@ -1,0 +1,27 @@
+<svg width="100%" height="100%" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <rect id="shadow_rect" x="99" y="109" width="826" height="826" rx="185" ry="185" fill="#777"
+        style="filter:blur(10px)" />
+    <rect id="blue_rect" x="100" y="100" width="824" height="824" rx="185" ry="185"
+        style="fill:url(#_blue_gradient);" />
+    <g transform="matrix(0.409934,0,0,0.409464,76.6011,95.5484)">
+        <g transform="matrix(-0.937573,0,0,1.18071,2317.96,-236.626)">
+            <path
+                d="M1646.47,697.639C1646.47,533.319 1478.47,399.912 1271.54,399.912L881.802,399.912C674.87,399.912 506.866,533.319 506.866,697.639L506.866,739.705C506.866,855.101 602.716,934.29 701.418,991.127C738.591,1012.53 683.339,1115.08 752.6,1132.84C804.562,1146.17 871.8,1057.61 931.659,1041.84C951.364,1036.65 988.204,1037.76 988.204,1037.76L1271.54,1037.43C1478.47,1037.43 1646.47,904.025 1646.47,739.705L1646.47,697.639Z"
+                style="fill:white;" />
+        </g>
+        <use id="dot_1" xlink:href="#_dot" x="1070" y="612" />
+        <use id="dot_2" xlink:href="#_dot" x="1315" y="612" />
+        <use id="dot_3" xlink:href="#_dot" x="1560" y="612" />
+    </g>
+    <rect id="input_rect" x="192" y="581" width="640" height="223" rx="77" ry="77" fill="white" />
+    <rect id="cursor_rect" x="262" y="624" width="15" height="137" rx="4" ry="4" fill="black" />
+    <defs>
+        <circle id="_dot" cx="0" cy="0" r="57" />
+        <radialGradient id="_blue_gradient" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+            gradientTransform="matrix(1024,0,0,1024,0,0)">
+            <stop offset="0" style="stop-color:rgb(0,139,255);stop-opacity:1" />
+            <stop offset="1" style="stop-color:rgb(19,81,166);stop-opacity:1" />
+        </radialGradient>
+    </defs>
+</svg>
